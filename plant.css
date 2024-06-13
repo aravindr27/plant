@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: "Poppins", sans-serif;
+font-family: "Kanit", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navmain{
+width: 100%;
+    padding: 25px 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sub1{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+}
+.navlist{
+    display: flex;
+    margin-left: 30px;
+}
+.navlist a{
+  padding-left: 48px;
+  font-size: 18px;
+}
+.x{
+    color: #575757;
+}
+.active{
+    color: #000000;
+}
+
+.navlogo{
+    font-size: 24px;
+}
+.navlogo h2{
+    font-weight: normal;
+font-family:"Kanit", sans-serif ;
+color: #1E1E1E;
+}
+.y{
+    padding-left: 48px;
+}
+/* .maincontent{
+ 
+   background-color: #C1DCDC;
+
+}
+.main{
+    background-color: burlywood;
+} */
+ .main{
+   width: 100%;
+ }
+ .maincontent{
+    width: 88%;
+    height: 500px;
+    /* padding: 70px 0 70px 0; */
+    color: aliceblue;
+  padding: 48px;
+    background-color: rgb(193, 220, 220);
+
+ }
+ .maincontent{
+    position: relative;
+    left: 6%;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .content{
+    width: 50%;
+    height:400px;
+
+ }
+ .content1 h1{
+    font-size: 64px;
+    line-height: 64px;
+    color: black;
+ }
+ .content2{
+    width: 250px;
+    height: 100px;
+    display: flex;
+  justify-content: space-between;
+   margin-top: 24px;
+ }
+ .sub3 h3{
+    font-size: 28px;
+    color: rgb(30, 30, 30);
+ }
+ .sub3 p{
+    color: rgb(30, 30, 30);
+ }
+ .sub4 h3{
+    font-size: 28px;
+    color: rgb(30, 30, 30);
+ }
+ .sub4 p{
+    color: rgb(30, 30, 30);
+ }
+ .form{
+    padding: 10px;
+    background-color: #f3f3f3;
+    margin-top: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .input{
+    padding: 7px 10px;
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: white;
+ }
+.search{
+    padding: 10px;
+    background-color:rgb(193, 220, 220) ;
+    border-radius: 12px;
+}
+.section{
+    padding: 100px;
+}
+.selling{
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+
+    
+}
+.sellingh2{
+    font-size: 28px;
+    
+}
+.sellingp{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.sellingbtn{
+    padding: 10px 20px;
+    background-color:rgb(193, 220, 220) ;
+    border-radius: 8px;
+    color: black;
+    
+}
+.button{
+    width: 150px;
+    display: flex;
+    background-color:rgb(193, 220, 220) ;
+    border-radius: 8px;
+}
+.iteamimg{
+  width: 100%;
+
+}
+.sellingiteamp{
+    margin: 6px 0px;
+    font-weight: 600;
+}
+.sellingprice{
+    color: rgb(137, 137, 137);
+}
+.aboutusiteam{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.aboutush2{
+  font-size: 32px;
+}
+.about{
+    width: 100%;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+
+}
+.aboutusp1{
+    color: rgb(137, 137, 137)
+}
+.about1{
+    text-align: center;
+}
+.aboutush4{
+    margin: 20px 0px;
+}
+.abouts{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(193, 220, 220) ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.categories1{
+    margin-top: 40px;
+    width: 100%;
+    height: 750px;
+    background-color:rgb(193, 220, 220) ;
+    padding: 0px 100px;
+}
+.categorie{
+    /* margin: -30px 0px 30px 0px; */
+    position: relative;
+    top: -30px;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+
+}
+.cat1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cat{
+   text-align: center;
+}
+.cats{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.categoriesbtn{
+ display: block;
+    text-align: center;
+    
+ 
+}
+.btnp{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    color: rgb(137, 137, 137) ;
+    
+}
+.button1{
+/* margin-top: 60px; */
+    text-align: center;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+margin: auto;
+  
+
+}
+
+.section1{
+    margin-top: 100px;
+}
+.sellingbtn1{
+    color: black;
+
+}
+
+.review{
+    width: 50%;
+    height: 305px;
+  background-color:rgb(193, 220, 220);
+  padding: 30px 30px;
+
+}
+.answer{
+    display: flex;
+}
+.coma1{
+    margin-bottom:100px;
+}
+.coma{
+   margin-top: 40px;
+}
+.aboutusiteam1{
+   margin-bottom: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom: 90px;
+padding-right: 25px;
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.starp{
+    font-size: 20px;
+}
+
+
